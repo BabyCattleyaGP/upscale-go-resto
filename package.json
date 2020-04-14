@@ -1,5 +1,5 @@
 {
-  "name": "go_resto",
+  "name": "upscale_mini_go_resto",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

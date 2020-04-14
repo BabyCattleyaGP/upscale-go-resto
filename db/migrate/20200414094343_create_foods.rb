@@ -3,7 +3,8 @@ class CreateFoods < ActiveRecord::Migration[6.0]
     create_table :foods do |t|
       t.string :name
       t.text :description
-      t.float :price
+      t.string :image_url
+      t.decimal :price, precision: 8, scale: 2
 
       t.timestamps
     end
